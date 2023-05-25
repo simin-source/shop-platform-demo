@@ -92,7 +92,8 @@ export default (props: any) => {
       "colorTextMenuActive": "#ffffff",
       "colorTextMenuSelected": "#CCCCCC",
       "colorBgMenuItemCollapsedElevated": "#333334",
-      "colorBgMenuItemSelected": "#262933"
+      "colorBgMenuItemSelected": "#262933",
+      "colorTextMenuItemHover": "#CCCCCC"
     }
   }
 };

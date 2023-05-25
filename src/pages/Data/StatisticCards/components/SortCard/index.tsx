@@ -50,10 +50,21 @@ const SortCard: React.FC<SortProps> = (props) => {
 
     const tableStyle = useEmotionCss(() => {
         return {
-            height: '280px',
+            ".ant-table": {
+                borderRadius: '8px',
+            },
+            ".ant-pro-card": {
+                borderRadius: '8px',
+            },
             ".ant-pro-card-body": {
                 paddingInline: '0 !important',
                 paddingBlock: '0',
+            },
+            "thead>tr>.ant-table-cell": {
+                background: '#E9E9E9',
+            },
+            "table": {
+                borderRadius: '0 0 8px 8px',
             }
         };
     });
@@ -62,6 +73,7 @@ const SortCard: React.FC<SortProps> = (props) => {
         {
             title: '排序',
             dataIndex: 'key',
+            width: 70,
             align: 'center',
             render: (dom, entity) => {
                 console.log(dom === '1');
@@ -76,6 +88,7 @@ const SortCard: React.FC<SortProps> = (props) => {
             title: '业态',
             dataIndex: 'name',
             align: 'center',
+            width: 70,
             render: (dom) => {
                 return (<div>{dom}</div>);
             },
@@ -97,6 +110,7 @@ const SortCard: React.FC<SortProps> = (props) => {
             search={false}
             pagination={false}
             columns={columns}
+            scroll={{ y: 282 }}
         />
     );
 }
