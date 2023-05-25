@@ -119,14 +119,16 @@ const StatisticCards: React.FC = () => {
               color: '#8167F5',
               name: '运动休闲',
               proportion: 45,
-            }] as PieDataType[]} />
+            },] as PieDataType[]} />
         </Col>
         <Col className="gutter-row" span={6}>
           <SortCard baseData={[{ key: '1', name: '餐饮', rentArea: 100 },
           { key: '2', name: '女装', rentArea: 100 },
           { key: '3', name: '鞋包', rentArea: 100 },
           { key: '4', name: '鞋包', rentArea: 100 },
-          { key: '5', name: '化妆品', rentArea: 100 },]} />
+          { key: '5', name: '化妆品', rentArea: 100 },
+          { key: '6', name: '运动', rentArea: 100 },
+          { key: '7', name: '化妆品', rentArea: 100 },]} />
         </Col>
       </Row>
       {/* <ProCard

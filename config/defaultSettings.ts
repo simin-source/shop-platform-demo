@@ -25,9 +25,9 @@ const Settings: ProLayoutProps & {
       colorTextMenuSelected:'#CCCCCC',
       colorBgMenuItemCollapsedElevated: '#333334',
       colorBgMenuItemSelected: '#262933',
+      colorTextMenuItemHover:'#CCCCCC',
       //  失效
       // colorTextMenuSecondary:'#C0E7FF',
-      // colorTextMenuItemHover:'#C0E7FF',
       // colorBgMenuItemHover:'#C0E7FF',
     },
   },
