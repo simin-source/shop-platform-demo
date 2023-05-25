@@ -4,9 +4,9 @@
 import React from 'react';
 import { ConfigProvider } from 'antd';
 
-import moment from '/Users/chaisimin/项目/demo/shop-platform-demo/node_modules/dayjs';
-import '/Users/chaisimin/项目/demo/shop-platform-demo/node_modules/dayjs/locale/en';
-import '/Users/chaisimin/项目/demo/shop-platform-demo/node_modules/dayjs/locale/zh-cn';
+import moment from '/Users/chaisimin/项目/练习/shop-platform-demo/node_modules/dayjs';
+import '/Users/chaisimin/项目/练习/shop-platform-demo/node_modules/dayjs/locale/en';
+import '/Users/chaisimin/项目/练习/shop-platform-demo/node_modules/dayjs/locale/zh-cn';
 import { RawIntlProvider, getLocale, getDirection , setIntl, getIntl, localeInfo, event, LANG_CHANGE_EVENT } from './localeExports';
 
 
