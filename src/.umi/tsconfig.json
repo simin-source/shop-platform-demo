@@ -27,7 +27,7 @@
         "src/.umi/*"
       ],
       "@umijs/max": [
-        "/Users/chaisimin/项目/demo/shop-platform-demo/node_modules/umi"
+        "/Users/chaisimin/项目/练习/shop-platform-demo/node_modules/umi"
       ],
       "@umijs/max/typings": [
         "src/.umi/typings"

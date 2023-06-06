@@ -30,8 +30,8 @@ export async function getRoutes() {
 '20': React.lazy(() => import(/* webpackChunkName: "p__Service__Deposit__index" */'@/pages/Service/Deposit/index.tsx')),
 '21': React.lazy(() => import(/* webpackChunkName: "p__Advert__index" */'@/pages/Advert/index.tsx')),
 '22': React.lazy(() => import(/* webpackChunkName: "p__404" */'@/pages/404.tsx')),
-'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'/Users/chaisimin/项目/demo/shop-platform-demo/src/.umi/plugin-layout/Layout.tsx')),
-'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'/Users/chaisimin/项目/demo/shop-platform-demo/src/.umi/plugin-openapi/openapi.tsx')),
+'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'/Users/chaisimin/项目/练习/shop-platform-demo/src/.umi/plugin-layout/Layout.tsx')),
+'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'/Users/chaisimin/项目/练习/shop-platform-demo/src/.umi/plugin-openapi/openapi.tsx')),
 },
   };
 }

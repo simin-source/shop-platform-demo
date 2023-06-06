@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 import 'antd/dist/reset.css';
-import { renderClient } from '/Users/chaisimin/项目/demo/shop-platform-demo/node_modules/@umijs/renderer-react';
+import { renderClient } from '/Users/chaisimin/项目/练习/shop-platform-demo/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';
@@ -34,7 +34,7 @@ async function render() {
   });
 
   const basename = contextOpts.basename || '/';
-  const historyType = contextOpts.historyType || 'browser';
+  const historyType = contextOpts.historyType || 'hash';
 
   const history = createHistory({
     type: historyType,
